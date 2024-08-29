@@ -3,11 +3,6 @@ export interface AvatarProps {
   initials: string
 }
 
-export interface AboutProps {
-  title: string
-  description: string
-}
-
 export interface LinksProps {
   title: string
   url: string
@@ -53,3 +48,5 @@ export interface ProjectProps {
   image?: string
   video?: string
 }
+
+export type TranslateProps = (key: string) => string

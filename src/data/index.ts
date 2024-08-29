@@ -30,15 +30,6 @@ export const AVATAR = {
   initials: 'EP'
 }
 
-export const ABOUT = {
-  title: `Frontend Engineer, Developer Relations and AI research enthusiast.
-  Always influenced by design. Based in Rosario, Argentina 🇦🇷`,
-  description: `Passionate about creating innovative tech solutions for social impact.
-  Focused on using advanced frontend technologies to improve
-  accessibility and performance in web applications. My main goal is to
-  enhance user experience, making the web a better place for everyone.`
-}
-
 export const LINKS = [
   {
     title: 'GitHub',
@@ -56,178 +47,19 @@ export const LINKS = [
     icon: XIcon
   },
   {
-    title: 'Resume',
-    url: 'https://cv.emapeire.xyz',
-    icon: FileTextIcon
-  },
-  {
     title: 'Email',
     url: 'mailto:hi@emapeire.xyz',
     icon: MailIcon
   },
   {
-    title: 'Other Links',
+    title: 'CV App',
+    url: 'https://cv.emapeire.xyz',
+    icon: FileTextIcon
+  },
+  {
+    title: 'Link App',
     url: 'https://link.emapeire.xyz',
     icon: LinkIcon
-  }
-]
-
-export const CAREER = [
-  {
-    company: 'Frontend Lab',
-    link: 'https://github.com/thefrontendlab',
-    badges: ['Hybrid'],
-    jobs: [
-      {
-        title: 'Frontend Developer & Technical Researcher',
-        start: 'Aug, 2023',
-        end: 'Present',
-        description: [
-          'Researched and implemented new frontend technologies and tools.',
-          'Developed innovative solutions to improve the frontend community.',
-          'Conducted technical research to stay ahead of industry trends.',
-          'Created and maintained open-source projects.',
-          'Collaborated with team members to enhance project outcomes.'
-        ]
-      },
-      {
-        title: 'Technical Researcher & Content Developer',
-        start: 'Jul, 2021',
-        end: 'Aug, 2023',
-        description: [
-          'Created technical content to educate and engage the frontend community.',
-          'Developed tutorials and guides on the latest frontend technologies.',
-          'Managed the content strategy to align with community needs and trends.',
-          'Collaborated with experts to produce high-quality, informative content.',
-          'Utilized various platforms to distribute content and maximize reach.'
-        ]
-      }
-    ]
-  },
-  {
-    company: 'Next.js Argentina',
-    link: 'https://github.com/nextjsargentina',
-    badges: ['Hybrid'],
-    jobs: [
-      {
-        title: 'Developer Experience Architect',
-        start: 'Aug, 2023',
-        end: 'Present',
-        description: [
-          'Built and nurtured a non-profit open community for Next.js enthusiasts.',
-          'Developed resources to enhance the developer experience with Next.js.',
-          'Organized community events and workshops.',
-          'Provided mentorship and support to community members.',
-          'Collaborated with other community leaders to expand the community reach.'
-        ]
-      }
-    ]
-  },
-  {
-    company: 'Invisible Technologies',
-    link: 'https://invisible.co',
-    badges: ['Remote'],
-    jobs: [
-      {
-        title: 'Operator & Advanced AI Trainer',
-        start: 'May, 2024',
-        end: 'Jun, 2024',
-        description: [
-          'Managed AI system operations to ensure optimal performance.',
-          'Trained advanced AI models to improve system accuracy.',
-          'Collaborated with cross-functional teams to develop AI solutions.',
-          'Analyzed data to enhance AI training methodologies.',
-          'Implemented feedback to refine AI models continuously.'
-        ]
-      }
-    ]
-  },
-  {
-    company: 'BaseHub',
-    link: 'https://basehub.com',
-    badges: ['Remote'],
-    jobs: [
-      {
-        title: 'Developer Relations',
-        start: 'Mar, 2024',
-        end: 'May, 2024',
-        description: [
-          'Assisted developers in building applications using BaseHub CMS and native AI.',
-          'Provided technical support and guidance to developers.',
-          'Created documentation and tutorials for better product understanding.',
-          'Organized and conducted webinars and workshops.',
-          'Engaged with the developer community to gather feedback and improve the product.'
-        ]
-      }
-    ]
-  },
-  {
-    company: 'Smat.io',
-    link: 'https://smat.io',
-    badges: ['Remote'],
-    jobs: [
-      {
-        title: 'QA Tester & Frontend Developer',
-        start: 'Aug, 2022',
-        end: 'Aug, 2023',
-        description: [
-          "Led QA testing using Jest and Playwright to ensure web applications' quality.",
-          'Implemented Test-Driven Development (TDD) practices.',
-          'Developed user-friendly interfaces with React.js.',
-          'Collaborated with developers to optimize code quality.',
-          'Conducted bug tracking and troubleshooting.'
-        ]
-      }
-    ]
-  },
-  {
-    company: 'Maker DAO',
-    link: 'https://makerdao.com',
-    badges: ['Remote'],
-    jobs: [
-      {
-        title: 'Technical Writer and Translator',
-        start: 'Feb, 2022',
-        end: 'Aug, 2022',
-        description: [
-          'Authored technical documentation, including whitepapers, guides, and tutorials.',
-          'Translated complex technical content for diverse audiences.',
-          'Facilitated user understanding of blockchain and DeFi concepts.',
-          'Collaborated with subject matter experts to ensure accuracy.',
-          'Maintained and updated documentation as needed.'
-        ]
-      }
-    ]
-  },
-  {
-    company: 'El Chaperón',
-    badges: ['On-site'],
-    jobs: [
-      {
-        title: 'Web Designer & Community Manager',
-        start: 'Jan, 2019',
-        end: 'Dec, 2021',
-        description: [
-          'Developed and designed responsive websites using WordPress.',
-          'Managed online tourist services for the city of Rosario.',
-          'Coordinated with the Rosario Hotel Association and Tourist Entity (ETUR).',
-          'Created engaging content for community outreach.',
-          'Implemented SEO strategies to improve website visibility.'
-        ]
-      },
-      {
-        title: 'Commercial Advisor',
-        start: 'Jan, 2016',
-        end: 'Dec, 2018',
-        description: [
-          'Maintained customer database for accuracy.',
-          'Executed marketing strategies to attract customers.',
-          'Managed services and ensured customer satisfaction.',
-          'Designed and implemented promotional campaigns with the marketing team.',
-          'Analyzed feedback and trends to improve services and marketing.'
-        ]
-      }
-    ]
   }
 ]
 
@@ -341,7 +173,7 @@ export const PROJECTS = [
       github: 'https://github.com/basehub-ai/nextjs-blog',
       preview: 'https://nextjs-blog-basehub.vercel.app'
     },
-    image: '/images/basehub-nextjs-blog.png'
+    image: '/projects/images/basehub-nextjs-blog.png'
   },
   {
     title: 'Basement Challenge',
@@ -358,7 +190,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/basement-challenge',
       preview: 'https://emapeire-basement-challenge.vercel.app'
     },
-    image: '/images/basement-challenge.png'
+    image: '/projects/images/basement-challenge.png'
   },
   {
     title: 'Chat With Vader',
@@ -375,7 +207,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/chat-with-vader'
     },
-    image: '/images/chat-with-vader.png'
+    image: '/projects/images/chat-with-vader.png'
   },
   {
     title: 'Cohere Chat',
@@ -385,7 +217,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/cohere-chat'
     },
-    image: '/images/cohere-chat.png'
+    image: '/projects/images/cohere-chat.png'
   },
   {
     title: 'Comments App',
@@ -401,7 +233,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/comments-react-query'
     },
-    image: '/images/comments-app.png'
+    image: '/projects/images/comments-app.png'
   },
   {
     title: 'Crud App',
@@ -419,7 +251,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/crud-react-redux',
       preview: 'https://emapeire-crud-react-redux.netlify.app'
     },
-    image: '/images/crud-app.png'
+    image: '/projects/images/crud-app.png'
   },
   {
     title: 'Eloquent JavaScript Chat',
@@ -436,7 +268,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/eloquent-js-chat'
     },
-    image: '/images/eloquent-js-chat.png'
+    image: '/projects/images/eloquent-js-chat.png'
   },
   {
     title: 'Google Translate UI',
@@ -456,7 +288,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/google-translate-clone'
     },
-    image: '/images/google-translate-clone.png'
+    image: '/projects/images/google-translate-clone.png'
   },
   {
     title: 'Image 2 Code',
@@ -473,7 +305,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/image-to-code'
     },
-    video: '/videos/image-2-code.webm'
+    video: '/projects/videos/image-2-code.webm'
   },
   {
     title: 'JavaScript Quiz',
@@ -490,7 +322,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/javascript-quiz',
       preview: 'https://emapeire-javascript-quiz.netlify.app'
     },
-    image: '/images/javascript-quiz.png'
+    image: '/projects/images/javascript-quiz.png'
   },
   {
     title: 'Mercado Libre Challenge',
@@ -508,7 +340,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/meli-challenge',
       preview: 'https://emapeire-meli-challenge.vercel.app'
     },
-    image: '/images/meli-challenge.png'
+    image: '/projects/images/meli-challenge.png'
   },
   {
     title: 'Mouse Follower',
@@ -518,7 +350,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/mouse-follower',
       preview: 'https://emapeire-mouse-follower.netlify.app'
     },
-    video: '/videos/mouse-follower.webm'
+    video: '/projects/videos/mouse-follower.webm'
   },
   {
     title: "Morty's characters",
@@ -536,7 +368,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/nextjs-graphql',
       preview: 'https://emapeire-nextjs-graphql.vercel.app'
     },
-    image: '/images/morty-s-characters.png'
+    image: '/projects/images/morty-s-characters.png'
   },
   {
     title: 'Movie Search App',
@@ -546,7 +378,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/react-movie-search',
       preview: 'https://emapeire-react-movie-search.netlify.app'
     },
-    image: '/images/movie-search.png'
+    image: '/projects/images/movie-search.png'
   },
   {
     title: 'Next.js Chat App',
@@ -566,7 +398,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/nextjsargentina/next.js-chat'
     },
-    video: '/videos/nextjs-chat.webm'
+    video: '/projects/videos/nextjs-chat.webm'
   },
   {
     title: 'Next.js Releases App',
@@ -587,7 +419,7 @@ export const PROJECTS = [
       github: 'https://github.com/nextjsargentina/next.js-releases',
       preview: 'https://nextjs-releases.vercel.app'
     },
-    image: '/images/nextjs-releases-app.png'
+    image: '/projects/images/nextjs-releases-app.png'
   },
   {
     title: 'React GPT',
@@ -596,7 +428,7 @@ export const PROJECTS = [
     link: {
       preview: 'https://chat.openai.com/g/g-HNcbE0A5n-reactgpt'
     },
-    image: '/images/react-gpt.png'
+    image: '/projects/images/react-gpt.png'
   },
   {
     title: 'Screen Recorder',
@@ -605,7 +437,7 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/screen-recorder'
     },
-    video: '/videos/screen-recorder.webm'
+    video: '/projects/videos/screen-recorder.webm'
   },
   {
     title: 'Shopping Cart',
@@ -615,7 +447,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/shopping-cart',
       preview: 'https://emapeire-shopping-cart.netlify.app'
     },
-    image: '/images/shopping-cart.png'
+    image: '/projects/images/shopping-cart.png'
   },
   {
     title: 'Space X Launches',
@@ -626,7 +458,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/spacex-launches',
       preview: 'https://emapeire-spacex-launches.vercel.app'
     },
-    image: '/images/spacex-launches.png'
+    image: '/projects/images/spacex-launches.png'
   },
   {
     title: 'Spotify UI',
@@ -643,7 +475,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/spotify-clone',
       preview: 'https://emapeire-spotify-clone.vercel.app'
     },
-    image: '/images/spotify-clone.png'
+    image: '/projects/images/spotify-clone.png'
   },
   {
     title: 'SWC Router',
@@ -661,7 +493,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/swc-router',
       preview: 'https://npmjs.com/package/swc-router'
     },
-    image: '/images/swc-router.png'
+    image: '/projects/images/swc-router.png'
   },
   {
     title: 'View Transitions API',
@@ -672,7 +504,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/view-transitions-api',
       preview: 'https://emapeire-view-transitions-api.vercel.app'
     },
-    video: '/videos/view-transitions-api.webm'
+    video: '/projects/videos/view-transitions-api.webm'
   },
   {
     title: 'Tesla Landing UI',
@@ -683,7 +515,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/tesla-landing',
       preview: 'https://emapeire-tesla-landing.vercel.app'
     },
-    video: '/videos/tesla-landing-clone.webm'
+    video: '/projects/videos/tesla-landing-clone.webm'
   },
   {
     title: 'Tic Tac Toe',
@@ -693,7 +525,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/tic-tac-toe',
       preview: 'https://emapeire-tic-tac-toe.netlify.app'
     },
-    image: '/images/tic-tac-toe.png'
+    image: '/projects/images/tic-tac-toe.png'
   },
   {
     title: 'Todo App',
@@ -710,7 +542,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/todo-app-ts',
       preview: 'https://emapeire-todo-ts.netlify.app'
     },
-    image: '/images/todo-app-ts.png'
+    image: '/projects/images/todo-app-ts.png'
   },
   {
     title: 'Twitter Follow Card UI',
@@ -721,7 +553,7 @@ export const PROJECTS = [
       github: 'https://github.com/emapeire/twitter-follow-card',
       preview: 'https://emapeire-twitter-follow-card.netlify.app'
     },
-    image: '/images/twitter-follow-card.png'
+    image: '/projects/images/twitter-follow-card.png'
   },
   {
     title: 'Twitter UI',
@@ -738,6 +570,6 @@ export const PROJECTS = [
     link: {
       github: 'https://github.com/emapeire/twitter-clone'
     },
-    image: '/images/twitter-clone.png'
+    image: '/projects/images/twitter-clone.png'
   }
 ]
